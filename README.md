@@ -1,4 +1,4 @@
-# Portfolio
+# Tutoring Inc
 Currently being worked on. 
 
-Portfolio website made using Particle JS, bootstrap, react and basic HTML and CSS. 
+Tutoring website made for a tutoring business using Particle JS, bootstrap, and basic HTML and CSS. 
