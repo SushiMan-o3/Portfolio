@@ -107,5 +107,16 @@ particlesJS("particles-js", {
       }
     },
     "retina_detect": true
-  });
+});
+
+document.addEventListener("scroll", function() {
+    const navbar = document.querySelector(".navbar");
+    if (window.scrollY > 50) {
+      navbar.classList.add("bg-dark-grey");
+      navbar.classList.remove("bg-transparent");
+    } else {
+      navbar.classList.add("bg-transparent");
+      navbar.classList.remove("bg-dark-grey");
+    }
+});
   
