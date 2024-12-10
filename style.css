@@ -1,0 +1,153 @@
+/* ---- NAVBAR ---- */
+.topnav {
+    overflow: hidden;
+    background: transparent;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: transparent;
+    color: white;
+    font-size: 1rem;
+    padding-left: 0 5%;
+    padding-right: 0 5%;
+
+}
+
+.topnav a.active:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* ---- reset ---- */
+body {
+    margin: 0;
+    font: normal 75% Arial, Helvetica, sans-serif;
+}
+
+canvas {
+    display: block;
+    vertical-align: bottom;
+}
+
+/* ---- particles.js and words ---- */
+#particles-js {
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    background-image: url("https://media.discordapp.net/attachments/1307882754406486109/1315847168250085489/Background.png?ex=6758e5ac&is=6757942c&hm=96da320ca1287da9480c974582de1b79dcf55018f02336c95b24136a7e311527&=&format=webp&quality=lossless&width=903&height=585");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+  
+
+header {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.introduction { 
+    position: absolute; 
+    text-align: center;
+    top: 20%;
+    width: 100%;
+}
+
+header {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.introduction { 
+    color: #f4f4f4;
+    position: absolute;
+    text-align: left;
+    width: 100%;
+    margin-bottom: 0px;
+}
+
+.name {
+    font-size: 40px;
+    padding-left: 3%;
+    top: 30%;
+}
+
+.intro {
+    font-size: 60px;
+    padding-left: 3%;
+    top: 35%;
+}
+
+
+.GetStarted {
+    align-items: center;
+    appearance: none;
+    background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);
+    border: 0;
+    border-radius: 6px;
+    box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: "JetBrains Mono",monospace;
+    height: 48px;
+    justify-content: center;
+    line-height: 1;
+    list-style: none;
+    overflow: hidden;
+    left: 10%;
+    padding-left: 16px;
+    padding-right: 16px;
+    position: relative;
+    text-align: left;
+    text-decoration: none;
+    transition: box-shadow .15s,transform .15s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    will-change: box-shadow,transform;
+    font-size: 18px;
+}
+
+.GetStarted:focus {
+  box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+}
+
+.GetStarted:hover {
+  box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.GetStarted:active {
+  box-shadow: #3c4fe0 0 3px 7px inset;
+  transform: translateY(2px);
+}
+/* ---- Others ---- */
+main {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-right: 15%;
+    margin-left: 15%;
+    color: black;  
+}
+
+p {
+    font-size: 15px;
+}
